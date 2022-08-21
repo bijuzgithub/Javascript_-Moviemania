@@ -1,0 +1,121 @@
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  background-image: url('/images/movie-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#data {
+  margin-bottom: 10px;
+  align-items: baseline;
+  justify-content: center;
+}
+
+#data input,
+button {
+  padding: 10px;
+  width: 180px;
+}
+
+.table {
+  background: #fff;
+  width: 1024px;
+}
+
+.box-shadow--6dp {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12), 0 3px 5px -1px rgba(0, 0, 0, .2)
+}
+
+.mainHeader {
+  color: white;
+  width: 100vw;
+  text-align: center;
+  font-family: 'DynaPuff', cursive;
+  font-size: 160px;
+  font-weight: 600;
+
+}
+
+.secondHeader {
+  color: white;
+  width: 100vw;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.searchBox {
+  color: white;
+  width: 100vw;
+  text-align: center;
+}
+
+#toggle1 {
+  color: white;
+}
+
+#name {
+  border-radius: 4px;
+  height: 32px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 18px;
+}
+
+#age {
+  border-radius: 4px;
+  height: 32px;
+  width: 10px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 18px;
+}
+
+#myInput {
+  border-radius: 4px;
+  height: 35px;
+  width: 50vw;
+  padding-left: 2%;
+  font-family: 'Dancing Script', cursive;
+  font-size: 18px;
+}
+
+td {
+  font-family: 'DynaPuff', cursive;
+  font-size: 24px;
+  /* border-radius:25p ; */
+}
+
+th {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+}
+
+#addButton {
+  font-family: 'DynaPuff', cursive;
+  font-size: 15px;
+}
+
+#toggle1 {
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: 400;
+}
+
+#myTable{
+  border-radius: 10px;
+  border: 1px solid;
+  /* border-collapse: collapse; */
+  overflow: hidden;
+}
